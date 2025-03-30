@@ -1,0 +1,39 @@
+/* configurações gerais da pagina */
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    background-color: black
+}
+
+/* estrutura do menu*/
+
+#bodyindex{
+    background-color: gray;
+    text-align: left;
+    border-width: 10px;
+    margin: 20px;
+    border: greenyellow solid 1px;
+    text-align: center;
+}
+/*"." é para chamar o class*/
+.menu{
+    list-style: none;
+    border: 2px solid black;
+    float: left;
+    
+}
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 2px solid brown;
+    list-style: none;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+    padding: 30px  ;
+    display: block;
+    
+}

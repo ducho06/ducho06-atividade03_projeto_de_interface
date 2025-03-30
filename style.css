@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: whitesmoke; /* Para manter o texto visível */
+}
+h2{
+    color: blue;
+}
+.paragrafosmall {
+    color:aquamarine;
+}
+p{
+    color: red;
+}

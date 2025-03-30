@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet"  type="text/css" href="../paginas/formulario.css">
+</head>
+<body>
+    <br>
+    <a href="../index.html" target="_blank"> ir para a pagina inicial </a>
+   
+<br>
+<h2 align="center" id="topo">formulário</h2>
+<!--action e method dentro do form sao para banco de dados-->
+    <form action=".sql"method="post">
+        <p>nome:<input type="text" name="nome" placeholder="escreva seu nome" size="60"/></p>
+                                                  
+        <p>telefone:<input type="tel" placeholder="00-000000000" maxlength="11"/></p>
+        <p>data de nascimento:<input type="date" /></p>
+        <p>senha:<input type="password" maxlength="8"/>
+            <small> A senha só podera ter ate 8 caracteres</small></p>
+
+        <p>email:<input type="email" placeholder="escreva seu email"/></p>
+
+        <p>idade:<input type="number"  placeholder="escreva sua idade"/></p>
+        <p> endeço: <input type="endereco" placeholder="escreva seu endereço aqui"/></p>
+        <p>cep:<input type="number"  placeholder="escreva seu cep:666-666"/></p>
+        <p>complemento<textarea rows="9"cols="10"></textarea></p>
+      <p>
+     <fieldset> Qual é o seu maior sonho?:<textarea rows="10" cols="10" >
+    </textarea></fieldset>
+     
+      </p>
+     <!--estrutura de seleçao-->
+     <!--value é para alimentar o banco de dados -->
+     <p>
+        time de futebol: 
+        <select>
+            <option></option>
+            <option value="flamengo">flamengo</option>
+            <option value="palmeiras">palmeiras</option>
+            <option value="vasco">vasco</option>
+        </select>
+     </p>
+     <!--formulario de opcoes-->    
+     <p>estados brasileiros
+        <br/>
+            <input type="radio" name="estados" value=""/> goias
+                <br/>
+            <input type="radio" name="estados"/> mato-grosso
+                <br/>
+            <input type="radio" name="estados"/> curitiba
+                <br/>
+            <input type="radio" name="estados"/> sao paulo
+                <br/>
+     </p>
+ <!--checkbox-->
+
+ <p>
+    <input type="checkbox" name="confirmar"/>aceito fazer parte da ceita do html!!!
+ </p>
+ <p>
+ <input type="reset"/>
+ <input type="submit"/></p>
+ <!--fieldset-->
+<p>
+ <fieldset>
+    <legend>
+        Dados pessoais: </legend>
+        <label>nome:<input type="text"></label>
+        <label>cpf:<input type="text"></label>
+ </fieldset>
+ <!-- estudar sobre div-->
+ <div></div></p>
+    </form>
+    <form method="post">
+        <p>Pesquisa de tatisfação:
+            <br />
+            <input type="radio" name="satisfacao"value="bom"> Bom
+            <br />
+            <input type="radio" name="satisfacao"value="Ruim"> Ruim
+            <br />
+            <input type="radio" name="satisfacao"value="podemelhorar"> Pode melhorar
+            <br />
+            <p>Deixe aqui seu feedback
+            <textarea rows="5"cols="15">
+
+            </textarea>
+            </p>
+        </p>
+    </form>
+    
+<a href="#topo">clique aqui para ao topo</a>
+</body>
+</html>

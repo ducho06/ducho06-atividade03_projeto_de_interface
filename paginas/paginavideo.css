@@ -1,0 +1,16 @@
+/*primeiras configuraçoes*/
+body {
+    background-color: darkolivegreen;
+    border: red solid 3px;   
+    margin: 9%; 
+}
+p {
+    text-align: center;
+    color: aliceblue;
+}
+form {
+color: antiquewhite;
+}
+h2 {
+ font-size: 600%;
+}
